@@ -126,3 +126,13 @@ def test_parser(input_string):
 # Prueba con una cadena de entrada
 input_string = input("Ingrese una expresión matemática: ")
 test_parser(input_string)
+
+# Imprimir la tabla "Go to"
+with open("parser.out", "r") as file:
+    lines = file.readlines()
+    go_to_table_start = False
+    for line in lines:
+        if go_to_table_start:
+            print(line, end='')
+        if "state" in line and "action" in line and "goto" in line:
+            go_to_table_start = True

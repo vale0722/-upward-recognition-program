@@ -28,8 +28,14 @@ Puedes instalar ply utilizando pip:
 ### Ejecución:
 Descarga el repositorio o copia y pega el código en un archivo .py y ejecútalo en tu entorno Python preferido.
 
+```
+ python main.py
+```
+
 ## Uso:
 Una vez ejecutado, el programa pedirá al usuario que ingrese una expresión matemática. Después de la entrada, el programa analizará la expresión y mostrará el resultado.
+
+En el archivo parser.out podrás ver un ejemplo de tabla Go to generada
 
 ## Conclusiones
 
